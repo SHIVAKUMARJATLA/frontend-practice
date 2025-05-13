@@ -24,5 +24,5 @@ echo Pushing to GitHub...
 git push origin main
 
 echo.
-echo ✅ Done! Your code is now synced with GitHub.
+echo Done! Your code is now synced with GitHub.
 pause
