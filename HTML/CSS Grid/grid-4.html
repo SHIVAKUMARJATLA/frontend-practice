@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cat {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            margin-bottom: 0;
+        }
+
+        .name {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-top: 4px;
+            margin-bottom: 0;
+        }
+
+        .dog {
+            height: 30px;
+            width: 30px;
+            object-fit: cover;
+            border-radius: 100px;
+        }
+
+        .frd {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: grey;
+        }
+
+        .add {
+            background-color: rgb(68, 142, 254);
+            border: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 4px;
+            color: white;
+        }
+
+        .dog-frd {
+            display: grid;
+            grid-template-columns: 20px 200px;
+            column-gap: 15px;
+        }
+
+        .o-f {
+            margin-left: 9px;
+        }
+
+        .main {
+            width: 160px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+        }
+
+        .card {
+            width: 160px;
+            padding-bottom: 10px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="main">
+                <div>
+                    <img class="cat" src="../Nested Layouts/cat.jpg" alt="cat">
+                </div>
+            </div>
+            <div class="o-f">
+                <div>
+                    <p class="name">Oliver</p>
+                </div>
+                <div class="dog-frd">
+                    <div>
+                        <img class="dog" src="../Nested Layouts/dog2.jpg" alt="">
+                    </div>
+
+                    <div class="mut">
+                        <p class="frd">2 mutual friends</p>
+                    </div>
+                </div>
+
+                <div><button class="add">Add Friend</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="main">
+                <div>
+                    <img class="cat" src="../Nested Layouts/cat.jpg" alt="cat">
+                </div>
+            </div>
+            <div class="o-f">
+                <div>
+                    <p class="name">Oliver</p>
+                </div>
+
+                <div class="dog-frd">
+                    <div>
+                        <img class="dog" src="../Nested Layouts/dog2.jpg" alt="">
+                    </div>
+
+                    <div class="mut">
+                        <p class="frd">2 mutual friends</p>
+                    </div>
+                </div>
+
+                <div><button class="add">Add Friend</button></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="main">
+                <div>
+                    <img class="cat" src="../Nested Layouts/cat.jpg" alt="cat">
+                </div>
+            </div>
+            <div class="o-f">
+                <div>
+                    <p class="name">Oliver</p>
+                </div>
+                <div class="dog-frd">
+                    <div>
+                        <img class="dog" src="../Nested Layouts/dog2.jpg" alt="">
+                    </div>
+
+                    <div class="mut">
+                        <p class="frd">2 mutual friends</p>
+                    </div>
+                </div>
+
+                <div><button class="add">Add Friend</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
